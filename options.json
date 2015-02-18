@@ -1,0 +1,1422 @@
+{
+    "aleph": {
+        "short": "al",
+        "explanation": "ASCII code of the letter Aleph (Hebrew)"
+    },
+    "allowrevins": {
+        "short": "ari",
+        "explanation": "allow CTRL-_ in Insert and Command-line mode"
+    },
+    "altkeymap": {
+        "short": "akm",
+        "explanation": "for default second language (Farsi/Hebrew)"
+    },
+    "ambiwidth": {
+        "short": "ambw",
+        "explanation": "what to do with Unicode chars of ambiguous width"
+    },
+    "antialias": {
+        "short": "anti",
+        "explanation": "Mac OS X: use smooth, antialiased fonts"
+    },
+    "autochdir": {
+        "short": "acd",
+        "explanation": "change directory to the file in the current window"
+    },
+    "arabic": {
+        "short": "arab",
+        "explanation": "for Arabic as a default second language"
+    },
+    "arabicshape": {
+        "short": "arshape",
+        "explanation": "shaping for Arabic characters"
+    },
+    "autoindent": {
+        "short": "ai",
+        "explanation": "take indent for new line from previous line"
+    },
+    "autoread": {
+        "short": "ar",
+        "explanation": "autom. read file when changed outside of Vim"
+    },
+    "autowrite": {
+        "short": "aw",
+        "explanation": "automatically write file if changed"
+    },
+    "autowriteall": {
+        "short": "awa",
+        "explanation": "as 'autowrite', but works with more commands"
+    },
+    "background": {
+        "short": "bg",
+        "explanation": "'dark' or 'light', used for highlight colors"
+    },
+    "backspace": {
+        "short": "bs",
+        "explanation": "how backspace works at start of line"
+    },
+    "backup": {
+        "short": "bk",
+        "explanation": "keep backup file after overwriting a file"
+    },
+    "backupcopy": {
+        "short": "bkc",
+        "explanation": "make backup as a copy, don't rename the file"
+    },
+    "backupdir": {
+        "short": "bdir",
+        "explanation": "list of directories for the backup file"
+    },
+    "backupext": {
+        "short": "bex",
+        "explanation": "extension used for the backup file"
+    },
+    "backupskip": {
+        "short": "bsk",
+        "explanation": "no backup for files that match these patterns"
+    },
+    "balloondelay": {
+        "short": "bdlay",
+        "explanation": "delay in mS before a balloon may pop up"
+    },
+    "ballooneval": {
+        "short": "beval",
+        "explanation": "switch on balloon evaluation"
+    },
+    "balloonexpr": {
+        "short": "bexpr",
+        "explanation": "expression to show in balloon"
+    },
+    "binary": {
+        "short": "bin",
+        "explanation": "read/write/edit file in binary mode"
+    },
+    "bioskey": {
+        "short": "biosk",
+        "explanation": "MS-DOS: use bios calls for input characters"
+    },
+    "bomb": {
+        "short": "",
+        "explanation": "prepend a Byte Order Mark to the file"
+    },
+    "breakat": {
+        "short": "brk",
+        "explanation": "characters that may cause a line break"
+    },
+    "browsedir": {
+        "short": "bsdir",
+        "explanation": "which directory to start browsing in"
+    },
+    "bufhidden": {
+        "short": "bh",
+        "explanation": "what to do when buffer is no longer in window"
+    },
+    "buflisted": {
+        "short": "bl",
+        "explanation": "whether the buffer shows up in the buffer list"
+    },
+    "buftype": {
+        "short": "bt",
+        "explanation": "special type of buffer"
+    },
+    "casemap": {
+        "short": "cmp",
+        "explanation": "specifies how case of letters is changed"
+    },
+    "cdpath": {
+        "short": "cd",
+        "explanation": "list of directories searched with ':cd'"
+    },
+    "cedit": {
+        "short": "",
+        "explanation": "key used to open the command-line window"
+    },
+    "charconvert": {
+        "short": "ccv",
+        "explanation": "expression for character encoding conversion"
+    },
+    "cindent": {
+        "short": "cin",
+        "explanation": "do C program indenting"
+    },
+    "cinkeys": {
+        "short": "cink",
+        "explanation": "keys that trigger indent when 'cindent' is set"
+    },
+    "cinoptions": {
+        "short": "cino",
+        "explanation": "how to do indenting when 'cindent' is set"
+    },
+    "cinwords": {
+        "short": "cinw",
+        "explanation": "words where 'si' and 'cin' add an indent"
+    },
+    "clipboard": {
+        "short": "cb",
+        "explanation": "use the clipboard as the unnamed register"
+    },
+    "cmdheight": {
+        "short": "ch",
+        "explanation": "number of lines to use for the command-line"
+    },
+    "cmdwinheight": {
+        "short": "cwh",
+        "explanation": "height of the command-line window"
+    },
+    "colorcolumn": {
+        "short": "cc",
+        "explanation": "columns to highlight"
+    },
+    "columns": {
+        "short": "co",
+        "explanation": "number of columns in the display"
+    },
+    "comments": {
+        "short": "com",
+        "explanation": "patterns that can start a comment line"
+    },
+    "commentstring": {
+        "short": "cms",
+        "explanation": "template for comments; used for fold marker"
+    },
+    "compatible": {
+        "short": "cp",
+        "explanation": "behave Vi-compatible as much as possible"
+    },
+    "complete": {
+        "short": "cpt",
+        "explanation": "specify how Insert mode completion works"
+    },
+    "completefunc": {
+        "short": "cfu",
+        "explanation": "function to be used for Insert mode completion"
+    },
+    "completeopt": {
+        "short": "cot",
+        "explanation": "options for Insert mode completion"
+    },
+    "concealcursor": {
+        "short": "cocu",
+        "explanation": "whether concealable text is hidden in cursor line"
+    },
+    "conceallevel": {
+        "short": "cole",
+        "explanation": "whether concealable text is shown or hidden"
+    },
+    "confirm": {
+        "short": "cf",
+        "explanation": "ask what to do about unsaved/read-only files"
+    },
+    "conskey": {
+        "short": "consk",
+        "explanation": "get keys directly from console (MS-DOS only)"
+    },
+    "copyindent": {
+        "short": "ci",
+        "explanation": "make 'autoindent' use existing indent structure"
+    },
+    "cpoptions": {
+        "short": "cpo",
+        "explanation": "flags for Vi-compatible behavior"
+    },
+    "cryptmethod": {
+        "short": "cm",
+        "explanation": "type of encryption to use for file writing"
+    },
+    "cscopepathcomp": {
+        "short": "cspc",
+        "explanation": "how many components of the path to show"
+    },
+    "cscopeprg": {
+        "short": "csprg",
+        "explanation": "'   command to execute cscope"
+    },
+    "cscopequickfix": {
+        "short": "csqf",
+        "explanation": "use quickfix window for cscope results"
+    },
+    "cscopetag": {
+        "short": "cst",
+        "explanation": "'     use cscope for tag commands"
+    },
+    "cscopetagorder": {
+        "short": "csto",
+        "explanation": "determines ':cstag' search order"
+    },
+    "cscopeverbose": {
+        "short": "csverb",
+        "explanation": "ive messages when adding a cscope database"
+    },
+    "cursorbind": {
+        "short": "crb",
+        "explanation": "move cursor in window as it moves in other windows"
+    },
+    "cursorcolumn": {
+        "short": "cuc",
+        "explanation": "highlight the screen column of the cursor"
+    },
+    "cursorline": {
+        "short": "cul",
+        "explanation": "highlight the screen line of the cursor"
+    },
+    "debug": {
+        "short": "",
+        "explanation": "set to 'msg' to see all error messages"
+    },
+    "define": {
+        "short": "def",
+        "explanation": "pattern to be used to find a macro definition"
+    },
+    "delcombine": {
+        "short": "deco",
+        "explanation": "delete combining characters on their own"
+    },
+    "dictionary": {
+        "short": "dict",
+        "explanation": "list of file names used for keyword completion"
+    },
+    "diff": {
+        "short": "",
+        "explanation": "use diff mode for the current window"
+    },
+    "diffexpr": {
+        "short": "dex",
+        "explanation": "expression used to obtain a diff file"
+    },
+    "diffopt": {
+        "short": "dip",
+        "explanation": "options for using diff mode"
+    },
+    "digraph": {
+        "short": "dg",
+        "explanation": "enable the entering of digraphs in Insert mode"
+    },
+    "directory": {
+        "short": "dir",
+        "explanation": "list of directory names for the swap file"
+    },
+    "display": {
+        "short": "dy",
+        "explanation": "list of flags for how to display text"
+    },
+    "eadirection": {
+        "short": "ead",
+        "explanation": "in which direction 'equalalways' works"
+    },
+    "edcompatible": {
+        "short": "ed",
+        "explanation": "toggle flags of ':substitute' command"
+    },
+    "encoding": {
+        "short": "enc",
+        "explanation": "encoding used internally"
+    },
+    "endofline": {
+        "short": "eol",
+        "explanation": "write <EOL> for last line in file"
+    },
+    "equalalways": {
+        "short": "ea",
+        "explanation": "windows are automatically made the same size"
+    },
+    "equalprg": {
+        "short": "ep",
+        "explanation": "external program to use for '=' command"
+    },
+    "errorbells": {
+        "short": "eb",
+        "explanation": "ring the bell for error messages"
+    },
+    "errorfile": {
+        "short": "ef",
+        "explanation": "name of the errorfile for the QuickFix mode"
+    },
+    "errorformat": {
+        "short": "efm",
+        "explanation": "description of the lines in the error file"
+    },
+    "esckeys": {
+        "short": "ek",
+        "explanation": "recognize function keys in Insert mode"
+    },
+    "eventignore": {
+        "short": "ei",
+        "explanation": "autocommand events that are ignored"
+    },
+    "expandtab": {
+        "short": "et",
+        "explanation": "use spaces when <Tab> is inserted"
+    },
+    "exrc": {
+        "short": "ex",
+        "explanation": "read .vimrc and .exrc in the current directory"
+    },
+    "fileencoding": {
+        "short": "fenc",
+        "explanation": "file encoding for multi-byte text"
+    },
+    "fileencodings": {
+        "short": "fencs",
+        "explanation": "automatically detected character encodings"
+    },
+    "fileformat": {
+        "short": "ff",
+        "explanation": "file format used for file I/O"
+    },
+    "fileformats": {
+        "short": "ffs",
+        "explanation": "automatically detected values for 'fileformat'"
+    },
+    "filetype": {
+        "short": "ft",
+        "explanation": "type of file, used for autocommands"
+    },
+    "fillchars": {
+        "short": "fcs",
+        "explanation": "characters to use for displaying special items"
+    },
+    "fkmap": {
+        "short": "fk",
+        "explanation": "Farsi keyboard mapping"
+    },
+    "foldclose": {
+        "short": "fcl",
+        "explanation": "close a fold when the cursor leaves it"
+    },
+    "foldcolumn": {
+        "short": "fdc",
+        "explanation": "width of the column used to indicate folds"
+    },
+    "foldenable": {
+        "short": "fen",
+        "explanation": "set to display all folds open"
+    },
+    "foldexpr": {
+        "short": "fde",
+        "explanation": "expression used when 'foldmethod' is 'expr'"
+    },
+    "foldignore": {
+        "short": "fdi",
+        "explanation": "ignore lines when 'foldmethod' is 'indent'"
+    },
+    "foldlevel": {
+        "short": "fdl",
+        "explanation": "close folds with a level higher than this"
+    },
+    "foldlevelstart": {
+        "short": "fdls",
+        "explanation": "'foldlevel' when starting to edit a file"
+    },
+    "foldmarker": {
+        "short": "fmr",
+        "explanation": "markers used when 'foldmethod' is 'marker'"
+    },
+    "foldmethod": {
+        "short": "fdm",
+        "explanation": "folding type"
+    },
+    "foldminlines": {
+        "short": "fml",
+        "explanation": "minimum number of lines for a fold to be closed"
+    },
+    "foldnestmax": {
+        "short": "fdn",
+        "explanation": "maximum fold depth"
+    },
+    "foldopen": {
+        "short": "fdo",
+        "explanation": "for which commands a fold will be opened"
+    },
+    "foldtext": {
+        "short": "fdt",
+        "explanation": "expression used to display for a closed fold"
+    },
+    "formatlistpat": {
+        "short": "flp",
+        "explanation": "pattern used to recognize a list header"
+    },
+    "formatoptions": {
+        "short": "fo",
+        "explanation": "how automatic formatting is to be done"
+    },
+    "formatprg": {
+        "short": "fp",
+        "explanation": "name of external program used with 'gq' command"
+    },
+    "formatexpr": {
+        "short": "fex",
+        "explanation": "expression used with 'gq' command"
+    },
+    "fsync": {
+        "short": "fs",
+        "explanation": "whether to invoke fsync() after file write"
+    },
+    "gdefault": {
+        "short": "gd",
+        "explanation": "the ':substitute' flag 'g' is default on"
+    },
+    "grepformat": {
+        "short": "gfm",
+        "explanation": "format of 'grepprg' output"
+    },
+    "grepprg": {
+        "short": "gp",
+        "explanation": "program to use for ':grep'"
+    },
+    "guicursor": {
+        "short": "gcr",
+        "explanation": "GUI: settings for cursor shape and blinking"
+    },
+    "guifont": {
+        "short": "gfn",
+        "explanation": "GUI: Name(s) of font(s) to be used"
+    },
+    "guifontset": {
+        "short": "gfs",
+        "explanation": "GUI: Names of multi-byte fonts to be used"
+    },
+    "guifontwide": {
+        "short": "gfw",
+        "explanation": "list of font names for double-wide characters"
+    },
+    "guiheadroom": {
+        "short": "ghr",
+        "explanation": "GUI: pixels room for window decorations"
+    },
+    "guioptions": {
+        "short": "go",
+        "explanation": "GUI: Which components and options are used"
+    },
+    "guipty": {
+        "short": "",
+        "explanation": "GUI: try to use a pseudo-tty for ':!' commands"
+    },
+    "guitablabel": {
+        "short": "gtl",
+        "explanation": "GUI: custom label for a tab page"
+    },
+    "guitabtooltip": {
+        "short": "gtt",
+        "explanation": "GUI: custom tooltip for a tab page"
+    },
+    "helpfile": {
+        "short": "hf",
+        "explanation": "full path name of the main help file"
+    },
+    "helpheight": {
+        "short": "hh",
+        "explanation": "minimum height of a new help window"
+    },
+    "helplang": {
+        "short": "hlg",
+        "explanation": "preferred help languages"
+    },
+    "hidden": {
+        "short": "hid",
+        "explanation": "don't unload buffer when it is YXXYabandon|ed"
+    },
+    "highlight": {
+        "short": "hl",
+        "explanation": "sets highlighting mode for various occasions"
+    },
+    "hlsearch": {
+        "short": "hls",
+        "explanation": "highlight matches with last search pattern"
+    },
+    "history": {
+        "short": "hi",
+        "explanation": "number of command-lines that are remembered"
+    },
+    "hkmap": {
+        "short": "hk",
+        "explanation": "Hebrew keyboard mapping"
+    },
+    "hkmapp": {
+        "short": "hkp",
+        "explanation": "phonetic Hebrew keyboard mapping"
+    },
+    "icon": {
+        "short": "",
+        "explanation": "let Vim set the text of the window icon"
+    },
+    "iconstring": {
+        "short": "",
+        "explanation": "string to use for the Vim icon text"
+    },
+    "ignorecase": {
+        "short": "ic",
+        "explanation": "ignore case in search patterns"
+    },
+    "imactivatekey": {
+        "short": "imak",
+        "explanation": "key that activates the X input method"
+    },
+    "imcmdline": {
+        "short": "imc",
+        "explanation": "use IM when starting to edit a command line"
+    },
+    "imdisable": {
+        "short": "imd",
+        "explanation": "do not use the IM in any mode"
+    },
+    "iminsert": {
+        "short": "imi",
+        "explanation": "use :lmap or IM in Insert mode"
+    },
+    "imsearch": {
+        "short": "ims",
+        "explanation": "use :lmap or IM when typing a search pattern"
+    },
+    "include": {
+        "short": "inc",
+        "explanation": "pattern to be used to find an include file"
+    },
+    "includeexpr": {
+        "short": "inex",
+        "explanation": "expression used to process an include line"
+    },
+    "incsearch": {
+        "short": "is",
+        "explanation": "highlight match while typing search pattern"
+    },
+    "indentexpr": {
+        "short": "inde",
+        "explanation": "expression used to obtain the indent of a line"
+    },
+    "indentkeys": {
+        "short": "indk",
+        "explanation": "keys that trigger indenting with 'indentexpr'"
+    },
+    "infercase": {
+        "short": "inf",
+        "explanation": "adjust case of match for keyword completion"
+    },
+    "insertmode": {
+        "short": "im",
+        "explanation": "start the edit of a file in Insert mode"
+    },
+    "isfname": {
+        "short": "isf",
+        "explanation": "characters included in file names and pathnames"
+    },
+    "isident": {
+        "short": "isi",
+        "explanation": "characters included in identifiers"
+    },
+    "iskeyword": {
+        "short": "isk",
+        "explanation": "characters included in keywords"
+    },
+    "isprint": {
+        "short": "isp",
+        "explanation": "printable characters"
+    },
+    "joinspaces": {
+        "short": "js",
+        "explanation": "two spaces after a period with a join command"
+    },
+    "key": {
+        "short": "",
+        "explanation": "encryption key"
+    },
+    "keymap": {
+        "short": "kmp",
+        "explanation": "name of a keyboard mapping"
+    },
+    "keymodel": {
+        "short": "km",
+        "explanation": "enable starting/stopping selection with keys"
+    },
+    "keywordprg": {
+        "short": "kp",
+        "explanation": "program to use for the 'K' command"
+    },
+    "langmap": {
+        "short": "lmap",
+        "explanation": "alphabetic characters for other language mode"
+    },
+    "langmenu": {
+        "short": "lm",
+        "explanation": "language to be used for the menus"
+    },
+    "laststatus": {
+        "short": "ls",
+        "explanation": "tells when last window has status lines"
+    },
+    "lazyredraw": {
+        "short": "lz",
+        "explanation": "don't redraw while executing macros"
+    },
+    "linebreak": {
+        "short": "lbr",
+        "explanation": "wrap long lines at a blank"
+    },
+    "lines": {
+        "short": "",
+        "explanation": "number of lines in the display"
+    },
+    "linespace": {
+        "short": "lsp",
+        "explanation": "number of pixel lines to use between characters"
+    },
+    "lisp": {
+        "short": "",
+        "explanation": "automatic indenting for Lisp"
+    },
+    "lispwords": {
+        "short": "lw",
+        "explanation": "words that change how lisp indenting works"
+    },
+    "list": {
+        "short": "",
+        "explanation": "show <Tab> and <EOL>"
+    },
+    "listchars": {
+        "short": "lcs",
+        "explanation": "characters for displaying in list mode"
+    },
+    "loadplugins": {
+        "short": "lpl",
+        "explanation": "load plugin scripts when starting up"
+    },
+    "macatsui": {
+        "short": "",
+        "explanation": "Mac GUI: use ATSUI text drawing"
+    },
+    "magic": {
+        "short": "",
+        "explanation": "changes special characters in search patterns"
+    },
+    "makeef": {
+        "short": "mef",
+        "explanation": "name of the errorfile for ':make'"
+    },
+    "makeprg": {
+        "short": "mp",
+        "explanation": "program to use for the ':make' command"
+    },
+    "matchpairs": {
+        "short": "mps",
+        "explanation": "pairs of characters that '%' can match"
+    },
+    "matchtime": {
+        "short": "mat",
+        "explanation": "tenths of a second to show matching paren"
+    },
+    "maxcombine": {
+        "short": "mco",
+        "explanation": "maximum nr of combining characters displayed"
+    },
+    "maxfuncdepth": {
+        "short": "mfd",
+        "explanation": "maximum recursive depth for user functions"
+    },
+    "maxmapdepth": {
+        "short": "mmd",
+        "explanation": "maximum recursive depth for mapping"
+    },
+    "maxmem": {
+        "short": "mm",
+        "explanation": "maximum memory (in Kbyte) used for one buffer"
+    },
+    "maxmempattern": {
+        "short": "mmp",
+        "explanation": "maximum memory (in Kbyte) used for pattern search"
+    },
+    "maxmemtot": {
+        "short": "mmt",
+        "explanation": "maximum memory (in Kbyte) used for all buffers"
+    },
+    "menuitems": {
+        "short": "mis",
+        "explanation": "maximum number of items in a menu"
+    },
+    "mkspellmem": {
+        "short": "msm",
+        "explanation": "memory used before |:mkspell| compresses the tree"
+    },
+    "modeline": {
+        "short": "ml",
+        "explanation": "recognize modelines at start or end of file"
+    },
+    "modelines": {
+        "short": "mls",
+        "explanation": "number of lines checked for modelines"
+    },
+    "modifiable": {
+        "short": "ma",
+        "explanation": "changes to the text are not possible"
+    },
+    "modified": {
+        "short": "mod",
+        "explanation": "buffer has been modified"
+    },
+    "more": {
+        "short": "",
+        "explanation": "pause listings when the whole screen is filled"
+    },
+    "mouse": {
+        "short": "",
+        "explanation": "enable the use of mouse clicks"
+    },
+    "mousefocus": {
+        "short": "mousef",
+        "explanation": "keyboard focus follows the mouse"
+    },
+    "mousehide": {
+        "short": "mh",
+        "explanation": "hide mouse pointer while typing"
+    },
+    "mousemodel": {
+        "short": "mousem",
+        "explanation": "changes meaning of mouse buttons"
+    },
+    "mouseshape": {
+        "short": "mouses",
+        "explanation": "shape of the mouse pointer in different modes"
+    },
+    "mousetime": {
+        "short": "mouset",
+        "explanation": "ax time between mouse double-click"
+    },
+    "mzquantum": {
+        "short": "mzq",
+        "explanation": "the interval between polls for MzScheme threads"
+    },
+    "nrformats": {
+        "short": "nf",
+        "explanation": "number formats recognized for CTRL-A command"
+    },
+    "number": {
+        "short": "nu",
+        "explanation": "print the line number in front of each line"
+    },
+    "numberwidth": {
+        "short": "nuw",
+        "explanation": "number of columns used for the line number"
+    },
+    "omnifunc": {
+        "short": "ofu",
+        "explanation": "function for filetype-specific completion"
+    },
+    "opendevice": {
+        "short": "odev",
+        "explanation": "allow reading/writing devices on MS-Windows"
+    },
+    "operatorfunc": {
+        "short": "opfunc",
+        "explanation": "function to be called for |g@| operator"
+    },
+    "osfiletype": {
+        "short": "oft",
+        "explanation": "operating system-specific filetype information"
+    },
+    "paragraphs": {
+        "short": "para",
+        "explanation": "nroff macros that separate paragraphs"
+    },
+    "paste": {
+        "short": "",
+        "explanation": "allow pasting text"
+    },
+    "pastetoggle": {
+        "short": "pt",
+        "explanation": "key code that causes 'paste' to toggle"
+    },
+    "patchexpr": {
+        "short": "pex",
+        "explanation": "expression used to patch a file"
+    },
+    "patchmode": {
+        "short": "pm",
+        "explanation": "keep the oldest version of a file"
+    },
+    "path": {
+        "short": "pa",
+        "explanation": "list of directories searched with 'gf' et.al."
+    },
+    "preserveindent": {
+        "short": "pi",
+        "explanation": "preserve the indent structure when reindenting"
+    },
+    "previewheight": {
+        "short": "pvh",
+        "explanation": "height of the preview window"
+    },
+    "previewwindow": {
+        "short": "pvw",
+        "explanation": "identifies the preview window"
+    },
+    "printdevice": {
+        "short": "pdev",
+        "explanation": "name of the printer to be used for :hardcopy"
+    },
+    "printencoding": {
+        "short": "penc",
+        "explanation": "encoding to be used for printing"
+    },
+    "printexpr": {
+        "short": "pexpr",
+        "explanation": "expression used to print PostScript for :hardcopy"
+    },
+    "printfont": {
+        "short": "pfn",
+        "explanation": "name of the font to be used for :hardcopy"
+    },
+    "printheader": {
+        "short": "pheader",
+        "explanation": "rmat of the header used for :hardcopy"
+    },
+    "printmbcharset": {
+        "short": "pmbcs",
+        "explanation": "JK character set to be used for :hardcopy"
+    },
+    "printmbfont": {
+        "short": "pmbfn",
+        "explanation": "font names to be used for CJK output of :hardcopy"
+    },
+    "printoptions": {
+        "short": "popt",
+        "explanation": "controls the format of :hardcopy output"
+    },
+    "pumheight": {
+        "short": "ph",
+        "explanation": "maximum height of the popup menu"
+    },
+    "quoteescape": {
+        "short": "qe",
+        "explanation": "escape characters used in a string"
+    },
+    "readonly": {
+        "short": "ro",
+        "explanation": "disallow writing the buffer"
+    },
+    "redrawtime": {
+        "short": "rdt",
+        "explanation": "timeout for 'hlsearch' and |:match| highlighting"
+    },
+    "relativenumber": {
+        "short": "rnu",
+        "explanation": "show relative line number in front of each line"
+    },
+    "remap": {
+        "short": "",
+        "explanation": "allow mappings to work recursively"
+    },
+    "report": {
+        "short": "",
+        "explanation": "threshold for reporting nr. of lines changed"
+    },
+    "restorescreen": {
+        "short": "rs",
+        "explanation": "Win32: restore screen when exiting"
+    },
+    "revins": {
+        "short": "ri",
+        "explanation": "inserting characters will work backwards"
+    },
+    "rightleft": {
+        "short": "rl",
+        "explanation": "window is right-to-left oriented"
+    },
+    "rightleftcmd": {
+        "short": "rlc",
+        "explanation": "commands for which editing works right-to-left"
+    },
+    "ruler": {
+        "short": "ru",
+        "explanation": "show cursor line and column in the status line"
+    },
+    "rulerformat": {
+        "short": "ruf",
+        "explanation": "custom format for the ruler"
+    },
+    "runtimepath": {
+        "short": "rtp",
+        "explanation": "list of directories used for runtime files"
+    },
+    "scroll": {
+        "short": "scr",
+        "explanation": "lines to scroll with CTRL-U and CTRL-D"
+    },
+    "scrollbind": {
+        "short": "scb",
+        "explanation": "scroll in window as other windows scroll"
+    },
+    "scrolljump": {
+        "short": "sj",
+        "explanation": "minimum number of lines to scroll"
+    },
+    "scrolloff": {
+        "short": "so",
+        "explanation": "minimum nr. of lines above and below cursor"
+    },
+    "scrollopt": {
+        "short": "sbo",
+        "explanation": "how 'scrollbind' should behave"
+    },
+    "sections": {
+        "short": "sect",
+        "explanation": "nroff macros that separate sections"
+    },
+    "secure": {
+        "short": "",
+        "explanation": "secure mode for reading .vimrc in current dir"
+    },
+    "selection": {
+        "short": "sel",
+        "explanation": "what type of selection to use"
+    },
+    "selectmode": {
+        "short": "slm",
+        "explanation": "when to use Select mode instead of Visual mode"
+    },
+    "sessionoptions": {
+        "short": "ssop",
+        "explanation": "options for |:mksession|"
+    },
+    "shell": {
+        "short": "sh",
+        "explanation": "name of shell to use for external commands"
+    },
+    "shellcmdflag": {
+        "short": "shcf",
+        "explanation": "flag to shell to execute one command"
+    },
+    "shellpipe": {
+        "short": "sp",
+        "explanation": "string to put output of ':make' in error file"
+    },
+    "shellquote": {
+        "short": "shq",
+        "explanation": "quote character(s) for around shell command"
+    },
+    "shellredir": {
+        "short": "srr",
+        "explanation": "string to put output of filter in a temp file"
+    },
+    "shellslash": {
+        "short": "ssl",
+        "explanation": "use forward slash for shell file names"
+    },
+    "shelltemp": {
+        "short": "stmp",
+        "explanation": "whether to use a temp file for shell commands"
+    },
+    "shelltype": {
+        "short": "st",
+        "explanation": "Amiga: influences how to use a shell"
+    },
+    "shellxquote": {
+        "short": "sxq",
+        "explanation": "like 'shellquote', but include redirection"
+    },
+    "shiftround": {
+        "short": "sr",
+        "explanation": "round indent to multiple of shiftwidth"
+    },
+    "shiftwidth": {
+        "short": "sw",
+        "explanation": "number of spaces to use for (auto)indent step"
+    },
+    "shortmess": {
+        "short": "shm",
+        "explanation": "list of flags, reduce length of messages"
+    },
+    "shortname": {
+        "short": "sn",
+        "explanation": "non-MS-DOS: Filenames assumed to be 8.3 chars"
+    },
+    "showbreak": {
+        "short": "sbr",
+        "explanation": "string to use at the start of wrapped lines"
+    },
+    "showcmd": {
+        "short": "sc",
+        "explanation": "show (partial) command in status line"
+    },
+    "showfulltag": {
+        "short": "sft",
+        "explanation": "show full tag pattern when completing tag"
+    },
+    "showmatch": {
+        "short": "sm",
+        "explanation": "briefly jump to matching bracket if insert one"
+    },
+    "showmode": {
+        "short": "smd",
+        "explanation": "message on status line to show current mode"
+    },
+    "showtabline": {
+        "short": "stal",
+        "explanation": "tells when the tab pages line is displayed"
+    },
+    "sidescroll": {
+        "short": "ss",
+        "explanation": "minimum number of columns to scroll horizontal"
+    },
+    "sidescrolloff": {
+        "short": "siso",
+        "explanation": "min. nr. of columns to left and right of cursor"
+    },
+    "smartcase": {
+        "short": "scs",
+        "explanation": "no ignore case when pattern has uppercase"
+    },
+    "smartindent": {
+        "short": "si",
+        "explanation": "smart autoindenting for C programs"
+    },
+    "smarttab": {
+        "short": "sta",
+        "explanation": "use 'shiftwidth' when inserting <Tab>"
+    },
+    "softtabstop": {
+        "short": "sts",
+        "explanation": "number of spaces that <Tab> uses while editing"
+    },
+    "spell": {
+        "short": "",
+        "explanation": "enable spell checking"
+    },
+    "spellcapcheck": {
+        "short": "spc",
+        "explanation": "pattern to locate end of a sentence"
+    },
+    "spellfile": {
+        "short": "spf",
+        "explanation": "files where |zg| and |zw| store words"
+    },
+    "spelllang": {
+        "short": "spl",
+        "explanation": "language(s) to do spell checking for"
+    },
+    "spellsuggest": {
+        "short": "sps",
+        "explanation": "method(s) used to suggest spelling corrections"
+    },
+    "splitbelow": {
+        "short": "sb",
+        "explanation": "new window from split is below the current one"
+    },
+    "splitright": {
+        "short": "spr",
+        "explanation": "new window is put right of the current one"
+    },
+    "startofline": {
+        "short": "sol",
+        "explanation": "commands move cursor to first non-blank in line"
+    },
+    "statusline": {
+        "short": "stl",
+        "explanation": "custom format for the status line"
+    },
+    "suffixes": {
+        "short": "su",
+        "explanation": "suffixes that are ignored with multiple match"
+    },
+    "suffixesadd": {
+        "short": "sua",
+        "explanation": "suffixes added when searching for a file"
+    },
+    "swapfile": {
+        "short": "swf",
+        "explanation": "whether to use a swapfile for a buffer"
+    },
+    "swapsync": {
+        "short": "sws",
+        "explanation": "how to sync the swap file"
+    },
+    "switchbuf": {
+        "short": "swb",
+        "explanation": "sets behavior when switching to another buffer"
+    },
+    "synmaxcol": {
+        "short": "smc",
+        "explanation": "maximum column to find syntax items"
+    },
+    "syntax": {
+        "short": "syn",
+        "explanation": "syntax to be loaded for current buffer"
+    },
+    "tabstop": {
+        "short": "ts",
+        "explanation": "number of spaces that <Tab> in file uses"
+    },
+    "tabline": {
+        "short": "tal",
+        "explanation": "custom format for the console tab pages line"
+    },
+    "tabpagemax": {
+        "short": "tpm",
+        "explanation": "maximum number of tab pages for |-p| and 'tab all'"
+    },
+    "tagbsearch": {
+        "short": "tbs",
+        "explanation": "use binary searching in tags files"
+    },
+    "taglength": {
+        "short": "tl",
+        "explanation": "number of significant characters for a tag"
+    },
+    "tagrelative": {
+        "short": "tr",
+        "explanation": "file names in tag file are relative"
+    },
+    "tags": {
+        "short": "tag",
+        "explanation": "list of file names used by the tag command"
+    },
+    "tagstack": {
+        "short": "tgst",
+        "explanation": "push tags onto the tag stack"
+    },
+    "term": {
+        "short": "",
+        "explanation": "name of the terminal"
+    },
+    "termbidi": {
+        "short": "tbidi",
+        "explanation": "terminal takes care of bi-directionality"
+    },
+    "termencoding": {
+        "short": "tenc",
+        "explanation": "character encoding used by the terminal"
+    },
+    "terse": {
+        "short": "",
+        "explanation": "shorten some messages"
+    },
+    "textauto": {
+        "short": "ta",
+        "explanation": "obsolete, use 'fileformats'"
+    },
+    "textmode": {
+        "short": "tx",
+        "explanation": "obsolete, use 'fileformat'"
+    },
+    "textwidth": {
+        "short": "tw",
+        "explanation": "maximum width of text that is being inserted"
+    },
+    "thesaurus": {
+        "short": "tsr",
+        "explanation": "list of thesaurus files for keyword completion"
+    },
+    "tildeop": {
+        "short": "top",
+        "explanation": "tilde command '~' behaves like an operator"
+    },
+    "timeout": {
+        "short": "to",
+        "explanation": "time out on mappings and key codes"
+    },
+    "timeoutlen": {
+        "short": "tm",
+        "explanation": "time out time in milliseconds"
+    },
+    "title": {
+        "short": "",
+        "explanation": "let Vim set the title of the window"
+    },
+    "titlelen": {
+        "short": "columns",
+        "explanation": "age of 'columns' used for window title"
+    },
+    "titleold": {
+        "short": "",
+        "explanation": "old title, restored when exiting"
+    },
+    "titlestring": {
+        "short": "",
+        "explanation": "string to use for the Vim window title"
+    },
+    "toolbar": {
+        "short": "tb",
+        "explanation": "GUI: which items to show in the toolbar"
+    },
+    "toolbariconsize": {
+        "short": "tbis",
+        "explanation": "ize of the toolbar icons (for GTK 2 only)"
+    },
+    "ttimeout": {
+        "short": "",
+        "explanation": "time out on mappings"
+    },
+    "ttimeoutlen": {
+        "short": "ttm",
+        "explanation": "time out time for key codes in milliseconds"
+    },
+    "ttybuiltin": {
+        "short": "tbi",
+        "explanation": "use built-in termcap before external termcap"
+    },
+    "ttyfast": {
+        "short": "tf",
+        "explanation": "indicates a fast terminal connection"
+    },
+    "ttymouse": {
+        "short": "ttym",
+        "explanation": "type of mouse codes generated"
+    },
+    "ttyscroll": {
+        "short": "tsl",
+        "explanation": "maximum number of lines for a scroll"
+    },
+    "ttytype": {
+        "short": "tty",
+        "explanation": "alias for 'term'"
+    },
+    "undodir": {
+        "short": "udir",
+        "explanation": "where to store undo files"
+    },
+    "undofile": {
+        "short": "udf",
+        "explanation": "save undo information in a file"
+    },
+    "undolevels": {
+        "short": "ul",
+        "explanation": "maximum number of changes that can be undone"
+    },
+    "undoreload": {
+        "short": "ur",
+        "explanation": "max nr of lines to save for undo on a buffer reload"
+    },
+    "updatecount": {
+        "short": "uc",
+        "explanation": "after this many characters flush swap file"
+    },
+    "updatetime": {
+        "short": "ut",
+        "explanation": "after this many milliseconds flush swap file"
+    },
+    "verbose": {
+        "short": "vbs",
+        "explanation": "give informative messages"
+    },
+    "verbosefile": {
+        "short": "vfile",
+        "explanation": "file to write messages in"
+    },
+    "viewdir": {
+        "short": "vdir",
+        "explanation": "directory where to store files with :mkview"
+    },
+    "viewoptions": {
+        "short": "vop",
+        "explanation": "specifies what to save for :mkview"
+    },
+    "viminfo": {
+        "short": "vi",
+        "explanation": "use .viminfo file upon startup and exiting"
+    },
+    "virtualedit": {
+        "short": "ve",
+        "explanation": "when to use virtual editing"
+    },
+    "visualbell": {
+        "short": "vb",
+        "explanation": "use visual bell instead of beeping"
+    },
+    "warn": {
+        "short": "",
+        "explanation": "warn for shell command when buffer was changed"
+    },
+    "weirdinvert": {
+        "short": "wiv",
+        "explanation": "for terminals that have weird inversion method"
+    },
+    "whichwrap": {
+        "short": "ww",
+        "explanation": "allow specified keys to cross line boundaries"
+    },
+    "wildchar": {
+        "short": "wc",
+        "explanation": "command-line character for wildcard expansion"
+    },
+    "wildcharm": {
+        "short": "wcm",
+        "explanation": "like 'wildchar' but also works when mapped"
+    },
+    "wildignore": {
+        "short": "wig",
+        "explanation": "files matching these patterns are not completed"
+    },
+    "wildignorecase": {
+        "short": "wic",
+        "explanation": "ignore case when completing file names"
+    },
+    "wildmenu": {
+        "short": "wmnu",
+        "explanation": "use menu for command line completion"
+    },
+    "wildmode": {
+        "short": "wim",
+        "explanation": "mode for 'wildchar' command-line expansion"
+    },
+    "wildoptions": {
+        "short": "wop",
+        "explanation": "specifies how command line completion is done"
+    },
+    "winaltkeys": {
+        "short": "wak",
+        "explanation": "when the windows system handles ALT keys"
+    },
+    "window": {
+        "short": "wi",
+        "explanation": "nr of lines to scroll for CTRL-F and CTRL-B"
+    },
+    "winheight": {
+        "short": "wh",
+        "explanation": "minimum number of lines for the current window"
+    },
+    "winfixheight": {
+        "short": "wfh",
+        "explanation": "keep window height when opening/closing windows"
+    },
+    "winfixwidth": {
+        "short": "wfw",
+        "explanation": "keep window width when opening/closing windows"
+    },
+    "winminheight": {
+        "short": "wmh",
+        "explanation": "minimum number of lines for any window"
+    },
+    "winminwidth": {
+        "short": "wmw",
+        "explanation": "minimal number of columns for any window"
+    },
+    "winwidth": {
+        "short": "wiw",
+        "explanation": "minimal number of columns for current window"
+    },
+    "wrap": {
+        "short": "",
+        "explanation": "long lines wrap and continue on the next line"
+    },
+    "wrapmargin": {
+        "short": "wm",
+        "explanation": "chars from the right where wrapping starts"
+    },
+    "wrapscan": {
+        "short": "ws",
+        "explanation": "searches wrap around the end of the file"
+    },
+    "write": {
+        "short": "",
+        "explanation": "writing to a file is allowed"
+    },
+    "writeany": {
+        "short": "wa",
+        "explanation": "write to file with no need for '!' override"
+    },
+    "writebackup": {
+        "short": "wb",
+        "explanation": "make a backup before overwriting a file"
+    },
+    "writedelay": {
+        "short": "wd",
+        "explanation": "delay this many msec for each char (for debug)"
+    }
+}
