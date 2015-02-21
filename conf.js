@@ -1,4 +1,4 @@
-var conf = {
+/*var conf = {
   "settings": {
     "hidde": {},
     "compatible": {"option": "no"}
@@ -15,6 +15,7 @@ var conf = {
     }
   ]
 }
+*/
 var fs = require('fs');
 var clc = require('cli-color');
 
@@ -23,9 +24,11 @@ var cWarn = clc.yellow;
 var cNotice = clc.blue;
 
 var settingOptions = JSON.parse(fs.readFileSync('options.json', 'utf8'));
+var conf = JSON.parse(fs.readFileSync('testVimrc.json', 'utf8'));
+
 var vimrcName = "vimrc";
 var out = fs.createWriteStream(vimrcName, { encoding: "utf8" });
-var commentFlag = true;
+var commentFlag = false;
 
 
 if (commentFlag) {
