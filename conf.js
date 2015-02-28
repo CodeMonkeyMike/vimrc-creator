@@ -1,21 +1,3 @@
-/*var conf = {
-  "settings": {
-    "hidde": {},
-    "compatible": {"option": "no"}
-  },
-  "mapping": [
-    {
-      "mode": [
-        "Insert",
-        "Replace"
-      ],
-      "map": "jj",
-      "command": "<Esc>'^",
-      "comment": "Easy access to normal mode"
-    }
-  ]
-}
-*/
 var fs = require('fs');
 var clc = require('cli-color');
 
@@ -23,13 +5,13 @@ var cError = clc.red.bold;
 var cWarn = clc.yellow;
 var cNotice = clc.blue;
 
-var settingOptions = JSON.parse(fs.readFileSync('options.json', 'utf8'));
-var conf = JSON.parse(fs.readFileSync('testVimrc.json', 'utf8'));
+var inputFile = 'testVimrc.json';//process.argv[2];
+var outputFile = 'vimrc';//process.argv[3];
+var commentFlag = process.argv[4];
 
-var vimrcName = "vimrc";
-var out = fs.createWriteStream(vimrcName, { encoding: "utf8" });
-var commentFlag = false;
-
+var setFile = JSON.parse(fs.readFileSync('options.json', 'utf8'));
+var conf = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
+var out = fs.createWriteStream(outputFile, { encoding: "utf8" });
 
 if (commentFlag) {
   console.log(cNotice('Flag: Comment flag is active, each setting will have an explanation'));
@@ -39,9 +21,9 @@ if (conf.hasOwnProperty("settings")) {
   var settings = conf.settings;
   for (var setting in settings) {
     if (settings.hasOwnProperty(setting)) {
-      if (settingOptions.hasOwnProperty(setting)) {
+      if (setFile.hasOwnProperty(setting)) {
         if (commentFlag === true) {
-          out.write('" ' + settingOptions[setting].explanation + '\n');
+          out.write('" ' + setFile[setting].explanation + '\n');
         }
         out.write("set " + setting);
         if (settings[setting].hasOwnProperty("option")) {
